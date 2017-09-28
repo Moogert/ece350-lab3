@@ -22,7 +22,7 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -48 128 120 144)
+	(rect -16 128 152 144)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "a8" (rect 5 0 21 14)(font "Arial" ))
 	(pt 168 8)
@@ -38,7 +38,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -40 144 128 160)
+	(rect -8 144 160 160)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "a7" (rect 5 0 21 14)(font "Arial" ))
 	(pt 168 8)
@@ -54,7 +54,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -40 160 128 176)
+	(rect -8 160 160 176)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "b8" (rect 5 0 21 14)(font "Arial" ))
 	(pt 168 8)
@@ -262,7 +262,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -40 176 128 192)
+	(rect -8 176 160 192)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "b7" (rect 5 0 21 14)(font "Arial" ))
 	(pt 168 8)
@@ -597,18 +597,6 @@ agreement for further details.
 	)
 )
 (connector
-	(pt 128 184)
-	(pt 152 184)
-)
-(connector
-	(pt 128 168)
-	(pt 152 168)
-)
-(connector
-	(pt 128 152)
-	(pt 152 152)
-)
-(connector
 	(pt 152 216)
 	(pt 136 216)
 )
@@ -631,10 +619,6 @@ agreement for further details.
 (connector
 	(pt 152 136)
 	(pt 160 136)
-)
-(connector
-	(pt 120 136)
-	(pt 152 136)
 )
 (connector
 	(pt 496 88)
@@ -665,10 +649,6 @@ agreement for further details.
 	(pt 504 72)
 )
 (connector
-	(pt 504 72)
-	(pt 512 72)
-)
-(connector
 	(pt 808 24)
 	(pt 816 24)
 )
@@ -689,16 +669,8 @@ agreement for further details.
 	(pt 816 40)
 )
 (connector
-	(pt 816 40)
-	(pt 824 40)
-)
-(connector
 	(pt 808 56)
 	(pt 816 56)
-)
-(connector
-	(pt 816 56)
-	(pt 824 56)
 )
 (connector
 	(pt 1160 -40)
@@ -740,9 +712,17 @@ agreement for further details.
 	(pt 1320 -40)
 	(pt 1352 -40)
 )
-(junction (pt 152 136))
-(junction (pt 504 72))
-(junction (pt 816 40))
-(junction (pt 816 56))
+(connector
+	(pt 152 152)
+	(pt 160 152)
+)
+(connector
+	(pt 152 168)
+	(pt 160 168)
+)
+(connector
+	(pt 152 184)
+	(pt 160 184)
+)
 (junction (pt 1160 8))
 (junction (pt 1160 -56))
